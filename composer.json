@@ -1,0 +1,16 @@
+{
+    "name": "pepijnzegveld/dp8-service",
+    "description": "Service to be used for testing a drupal module. Should be cnon-ddrupal specific and usable in other projects as well.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Pepijn Zegveld",
+            "email": "pepijn@ezcompany.nl"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "pepijnzegveld": "src/"
+        }
+}
