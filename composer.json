@@ -1,5 +1,6 @@
 {
     "name"        : "pepijnzegveld/dp8-test-services",
+    "version"     : "0.1.1",
     "license"     : "proprietary",
     "description" : "Service to be used for testing a drupal module. Should be non-drupal specific and usable in other projects as well.",
     "type"        : "library",
