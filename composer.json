@@ -1,16 +1,20 @@
 {
-    "name": "pepijnzegveld/dp8-service",
-    "description": "Service to be used for testing a drupal module. Should be cnon-ddrupal specific and usable in other projects as well.",
-    "type": "library",
-    "authors": [
+    "name"        : "pepijnzegveld/dp8-test-services",
+    "license"     : "proprietary",
+    "description" : "Service to be used for testing a drupal module. Should be non-drupal specific and usable in other projects as well.",
+    "type"        : "library",
+    "authors"     : [
         {
-            "name": "Pepijn Zegveld",
-            "email": "pepijn@ezcompany.nl"
+            "name"  : "Pepijn Zegveld",
+            "email" : "pepijn@ezcompany.nl"
         }
     ],
-    "require": {},
-    "autoload": {
-        "psr-0": {
-            "pepijnzegveld": "src/"
+    "require"     : {
+        "nesbot/carbon" : "^2.1"
+    },
+    "autoload"    : {
+        "psr-0" : {
+            "pepijnzegveld" : "src/"
         }
+    }
 }
