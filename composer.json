@@ -9,7 +9,7 @@
         }
     ],
     "require"           : {
-        "nesbot/carbon" : "^2.1"
+        "nesbot/carbon" : "^1.9.0"
     },
     "minimum-stability" : "dev",
     "prefer-stable"     : true,
