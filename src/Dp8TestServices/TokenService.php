@@ -27,7 +27,7 @@ class TokenService
      * Generates a cryptographically safe random string with a given length
      * Returns `null` on error
      *
-     * @param int $length
+     * @param int $length Length of the token to generate
      *
      * @return string|null
      */
