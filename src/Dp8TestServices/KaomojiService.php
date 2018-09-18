@@ -35,6 +35,6 @@ class KaomojiService
             throw new \Exception('No Kaomoji defined.');
         }
 
-        return $this->kaomojis[rand(0, $kaomojiCount)];
+        return $this->kaomojis[rand(0, ($kaomojiCount -1))];
     }
 }
